@@ -1,0 +1,127 @@
+@charset "ISO-8859-1";
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Jan 10, 2023, 4:14:18 PM
+    Author     : Madhu
+*/
+/*for DELETE MODEL*/
+/* The Modal (background) */
+.modaldeletealert {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 240px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow-y:  scroll; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+/* Modal Content */
+.modal-contenterroralert {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+
+}
+.modal-contentdeletealert{
+    background-color: #e4eeb9;
+    border: 2px solid black;
+}
+
+
+/*for SUCCESS MODEL*/
+/* The Modal (background) */
+.mymodalsuccess {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 220px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow-y:  scroll; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+/* Modal Content */
+.successcontent {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+
+}
+.successcontent{
+    background-color: #e4eeb9;
+    border: 2px solid black;
+}
+
+/*for EDIT MODEL*/
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 240px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow-y:  scroll; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+
+}
+.modal-content{
+    background-color: #e4eeb9;
+    border: 2px solid black;
+}
+
+
+
+#head{
+    color: blue;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+#inp{
+    font-weight: bolder;
+}
+
+#ptype{
+    padding: 4px;
+}
+#formdiv{
+    background-color: #e4eeb9;
+    padding-bottom: 4px;
+    
+    margin: auto;
+    border: 1px solid #888;
+    width: 50%;
+}
+
+#fnExcelReport{
+    width: 10%;
+    background-color: yellow;
+    margin-bottom: 2px;
+}
+
